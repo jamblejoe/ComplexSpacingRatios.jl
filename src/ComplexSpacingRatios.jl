@@ -2,6 +2,8 @@ module ComplexSpacingRatios
 
 using NearestNeighbors
 
+export ratios
+
 """
 ratios(eigenvalues::AbstractVector{T}) where T<:Number
 
