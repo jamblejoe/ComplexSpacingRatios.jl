@@ -1,0 +1,7 @@
+name = "ComplexSpacingRatios"
+uuid = "c9ba4f4f-bff3-4247-8285-534875a1a39c"
+authors = ["Goran Nakerst <go.nakerst@web.de>"]
+version = "0.1.0"
+
+[deps]
+NearestNeighbors = "b8a86587-4115-5ab1-83bc-aa920d37bbce"
