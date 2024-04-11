@@ -10,7 +10,7 @@ ratios(eigenvalues::AbstractVector{T}) where T<:Number
 Calculates the ratios of the distances between the 
 nearest and next nearest level:
 
-	(λ_nn - λ)/(λ_next_nn - λ).
+	(λ_n - λ)/(λ_nn - λ).
 
 """
 function ratios(eigenvalues::AbstractVector{T}) where T<:Number
@@ -26,10 +26,10 @@ function ratios(eigenvalues::AbstractVector{T}) where T<:Number
 	for i in eachindex(eigenvalues, n_idxs)
 
 		λ = eigenvalues[i]  # λ == eigenvalues[n_idxs[i][1]]
-		λ_nn = eigenvalues[n_idxs[i][2]]
-		λ_next_nn = eigenvalues[n_idxs[i][3]]
+		λ_n = eigenvalues[n_idxs[i][2]]
+		λ_nn = eigenvalues[n_idxs[i][3]]
 
-        rs[i] = (λ_nn - λ)/(λ_next_nn - λ)
+        rs[i] = (λ_n - λ)/(λ_nn - λ)
 	end
     rs
 end
