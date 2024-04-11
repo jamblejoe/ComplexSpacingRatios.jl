@@ -8,7 +8,7 @@ where $\lambda^{(N)}$ is the closest neighbor of $\lambda$ in Euclidean distance
 
 The spacing ratio is a useful quantity to study correlations of random variables. For independent and identically distributed random variables the ratio distribution $z$ is uniform in the unit disk. For correlated random variables, like the eigenvalues of random matrices, the ratio distribution $z$ is not flat, but typically features vanishing density around $z=0$ and $z=1$ for random matrices.
 
-![spacing ratios of eigenvalues of random matrices and independent values](/plots/csr.png)
+![spacing ratios of eigenvalues of random matrices and independent values](/figures/csr.png)
 
 The spacing ratios of (non-Hermitian) matrix eigenvalues
 ```julia
