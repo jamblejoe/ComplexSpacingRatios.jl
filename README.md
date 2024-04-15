@@ -21,5 +21,5 @@ can be computed with the function `ratios` as follows:
 ```julia
 using ComplexSpacingRatios
 
-ratios(eigenvalues)
+complex_spacing_ratios(eigenvalues)
 ```
