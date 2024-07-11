@@ -1,6 +1,6 @@
 # ComplexSpacingRatios.jl
 
-This package provides the single function `ratios` to compute the spacing ratios of (complex random) values $(\lambda_1,\lambda_2,\dots)$. The spacing ratio $z$ is defined as
+This package provides the single function `complex_spacing_ratios` to compute the spacing ratios of (complex random) values $(\lambda_1,\lambda_2,\dots)$. The spacing ratio $z$ is defined as
 
 $$ z = \frac{\lambda^{(N)}-\lambda}{\lambda^{(NN)}-\lambda},$$
 
